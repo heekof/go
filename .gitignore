@@ -1,2 +1,98 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+task
+task.exe
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Go workspace file
+go.work
+go.work.sum
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
 .DS_Store
-lock
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Log files
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+tmp/
+temp/
+
+# Generated files
+*.gen.go
+
+# Build output
+build/
+dist/
+out/
+
+# Configuration files with secrets
+config.local.*
+.env.local
+.env.production
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Runtime data
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage reports
+coverage.html
+coverage.xml
+*.cover
+
+# Profiling data
+*.prof
+cpu.prof
+mem.prof
+
+# Air (live reload) files
+.air.toml
+tmp/
+
+# Task output files (from our task manager)
+tasks.json
+tasks.db
+
+# Go module cache and vendor
+pkg/
+bin/
+
+# Keep source files and development files
+!*.go
+!go.mod
+!go.sum
+!README.md
+!Makefile
+!*.md
+!*.txt
+!*.yml
+!*.yaml
+!.gitignore
+!LICENSE
